@@ -20,4 +20,7 @@ export class AccueilComponent {
   naviguate_to_tetris () {
     this.router.navigate(['/tetris'])
   }
+  naviguate_to_multi_langue () {
+    this.router.navigate(['/multilangue'])
+  }
 }
