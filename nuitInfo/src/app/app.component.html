@@ -1,2 +1,5 @@
-<app-snowfall></app-snowfall>
-<router-outlet></router-outlet>
+<div (keydown)="onKeyDown($event)" tabindex="0">
+    <app-animation *ngIf="hadouken"></app-animation>
+    <app-snowfall></app-snowfall>
+    <router-outlet></router-outlet>
+</div>

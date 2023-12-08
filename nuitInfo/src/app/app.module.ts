@@ -7,6 +7,7 @@ import { MultiLanguageComponent } from './multi-language/multi-language.componen
 import { TetrixComponent } from './tetrix/tetrix.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import {RouterOutlet} from "@angular/router";
+import { AnimationComponent } from './animation/animation.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SnowfallComponent } from './snowfall/snowfall.component';
 
@@ -16,6 +17,7 @@ import { SnowfallComponent } from './snowfall/snowfall.component';
     MultiLanguageComponent,
     TetrixComponent,
     AccueilComponent,
+    AnimationComponent,
     NavbarComponent,
     SnowfallComponent
   ],

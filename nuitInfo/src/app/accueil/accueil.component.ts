@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, HostListener} from '@angular/core';
 import {Route, Router} from "@angular/router";
 import {AppComponent} from "../app.component";
 
@@ -15,6 +15,7 @@ export class AccueilComponent {
   ) {
   }
 
+
   naviguate_to_tetris () {
     window.performance.measure("Auguste")
     this.router.navigate(['/tetris'])
@@ -22,5 +23,7 @@ export class AccueilComponent {
   naviguate_to_multi_langue () {
     this.router.navigate(['/multilangue'])
   }
+
+
 
 }
