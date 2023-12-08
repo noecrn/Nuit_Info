@@ -1,0 +1,7 @@
+{
+  "routes": [
+    "/accueil",
+    "/multilangue",
+    "/tetris"
+  ]
+}
