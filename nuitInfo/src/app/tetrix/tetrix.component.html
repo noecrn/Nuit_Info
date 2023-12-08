@@ -1,2 +1,25 @@
-<p>Tetrix !</p>
-<button (click)="naviguate_to_accueil()"></button>
+<app-navbar></app-navbar>
+
+<div class="error-container">
+  <h1>404</h1>
+  <p>Page Not Found</p>
+  <p>Sorry, the page you are looking for might be in another castle.</p>
+</div>
+
+<!-- Placeholder for Tetris game -->
+<div class="tetris-container">
+  <h2>Tetris Game</h2>
+  <!-- Add your Tetris game content here -->
+  <div id="tetris-game">
+    <div id="tetris-game-board">
+      <div id="tetris-game-board-grid"></div>
+      <div id="tetris-game-board-blocks"></div>
+    </div>
+
+    <div id="tetris-game-controls">
+      <button id="tetris-game-start">Start</button>
+      <button id="tetris-game-pause">Pause</button>
+      <button id="tetris-game-restart">Restart</button>
+    </div>
+  </div>
+</div>
