@@ -1,0 +1,75 @@
+.country-card {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titre_select_language{
+    font-size: 5vh;
+    color: white;
+    font-family: 'fiera sans',sans-serif;
+}
+
+.drapeau_var {
+    width: 6vw;
+    padding: 3vh;
+    margin-top: 3vh;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 14vh;
+    border-radius: 2vh;
+    background-color: white;
+}
+
+.div_select_language {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button_flag {
+    background-color: gray;
+    border-radius: 2vh;
+    cursor: pointer;
+}
+
+.texte_translation {
+    padding: 1vh;
+}
+
+.flag {
+
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.select-button:hover {
+    background-color: #0056b3;
+}
+
+.accueil-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.accueil-button:hover {
+    background-color: #0056b3;
+}
+
+.language-selection {
+    margin-left: 10px; /* Ajustez la marge selon vos préférences */
+    font-size: 1em;
+    color: #333; /* Couleur du texte */
+}
