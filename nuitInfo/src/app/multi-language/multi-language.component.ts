@@ -13,7 +13,7 @@ export class MultiLanguageComponent implements OnInit {
   constructor(
     private router: Router,
     private appComponent: AppComponent,
-private translateService:TranslateService,
+    private translateService:TranslateService,
   ) {}
   naviguate_to_accueil () {
     this.router.navigate(['/accueil'])

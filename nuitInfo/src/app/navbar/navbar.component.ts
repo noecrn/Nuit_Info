@@ -22,6 +22,6 @@ export class NavbarComponent {
     this.router.navigate(['/multilangue'])
   }
   naviguate_to_home () {
-    this.router.navigate(['/acceuil'])
+    this.router.navigate(['/accueil'])
   }
 }

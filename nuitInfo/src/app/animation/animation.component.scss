@@ -31,26 +31,34 @@
 
 .charlie {
   display: flex;
-  justify-content: end;
-  align-items: end;
   width: 100%;
   height: 100%;
   position: absolute;
+  justify-content: end;
+  align-items: end;
   top: 0;
   z-index: 970;
 }
 
-.inter_charlie {
-  animation: slideInFromCharlie 2.5s ease;
-  width: 15%;
-  height: 15%;
+.intern_charlie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vh;
+  height: 30vh;
+  animation: slideInFromCharlie 2s ease;
+}
+
+.charlie_img {
+  width: 30vh;
+  height: 30vh;
 }
 
 @keyframes slideInFromCharlie {
   0% {
-    transform: translate3d(200%, 200%, 200px);
+    transform: translateX(100%); /* Commence à 100% à gauche de l'écran */
   }
   100% {
-    transform: translate3d(0%, 0%, 200px);
+    transform: translateX(0%); /* Se termine à la position originale (0) */
   }
 }

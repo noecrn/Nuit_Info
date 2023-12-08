@@ -11,6 +11,7 @@ import { AnimationComponent } from './animation/animation.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SnowfallComponent } from './snowfall/snowfall.component';
 import { FooterComponent } from './footer/footer.component';
+import {TranslateModule} from "@ngx-translate/core";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterOutlet
+    RouterOutlet,
+    TranslateModule
   ],
   providers: [
     provideClientHydration()
