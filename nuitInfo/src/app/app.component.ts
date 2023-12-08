@@ -1,4 +1,5 @@
 import {Component, HostListener, OnInit, Renderer2} from '@angular/core';
+import {interval} from "rxjs";
 
 @Component({
   selector: 'app-root',
@@ -16,19 +17,14 @@ export class AppComponent implements OnInit{
   watt_total = 0;
 
   metre_fait_avec_une_voiture = 0;
-  public nbr_arbre_couper = 0;
+  nbr_arbre_couper = 0;
+
+  intervalId: any = 0;
 
   ngOnInit() {
-    this.loop_compute();
   }
 
   loop_compute() {
-    this.watt_total += this.consommation_per_s;
-
-    this.metre_fait_avec_une_voiture = this.watt_total;
-    this.nbr_arbre_couper = this.watt_total / 100;
-
-    //setTimeout(() => this.loop_compute(),1000);
   }
 
   notDisplayHadoken() {
