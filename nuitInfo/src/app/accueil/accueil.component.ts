@@ -1,4 +1,4 @@
-import {Component, HostListener} from '@angular/core';
+import {Component, HostListener, Input} from '@angular/core';
 import {Route, Router} from "@angular/router";
 import {AppComponent} from "../app.component";
 

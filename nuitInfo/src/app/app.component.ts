@@ -16,7 +16,7 @@ export class AppComponent implements OnInit{
   watt_total = 0;
 
   metre_fait_avec_une_voiture = 0;
-  nbr_arbre_couper = 0;
+  public nbr_arbre_couper = 0;
 
   ngOnInit() {
     this.loop_compute();
@@ -28,7 +28,7 @@ export class AppComponent implements OnInit{
     this.metre_fait_avec_une_voiture = this.watt_total;
     this.nbr_arbre_couper = this.watt_total / 100;
 
-    setTimeout(() => this.loop_compute(),1000);
+    //setTimeout(() => this.loop_compute(),1000);
   }
 
   notDisplayHadoken() {

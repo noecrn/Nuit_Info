@@ -3,7 +3,10 @@
   align-items: center;
   color: white;
   justify-content: center;
-  font-family: Comfortaa, sans-serif;
+  text-align: center;
+  font-family: 'fira sans', sans-serif;
+  padding-bottom: 120px;
+  padding-top: 30px;
 }
 
 .landing_top {
@@ -11,4 +14,18 @@
   background-color: #333333;
   overflow: hidden;
   height: 100vh;
+}
+
+.impact {
+  width: 50vh;
+  padding: 10px 30px;
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  color: black;
+  justify-content: center;
+  text-align: left;
+  font-family: 'fira sans', sans-serif;
+  background-color: white;
+  border-radius: 1vh;
 }
