@@ -10,6 +10,7 @@ import {RouterOutlet} from "@angular/router";
 import { AnimationComponent } from './animation/animation.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SnowfallComponent } from './snowfall/snowfall.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SnowfallComponent } from './snowfall/snowfall.component';
     AccueilComponent,
     AnimationComponent,
     NavbarComponent,
-    SnowfallComponent
+    SnowfallComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

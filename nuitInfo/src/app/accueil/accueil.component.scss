@@ -29,3 +29,11 @@
   background-color: white;
   border-radius: 1vh;
 }
+
+#chrismas_tree {
+  width: 5%;
+  z-index: -1; /* Place it behind other content */
+  float: left;
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 20px; /* Optional margin for spacing */
+}
