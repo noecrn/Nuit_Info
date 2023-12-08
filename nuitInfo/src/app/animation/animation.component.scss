@@ -1,0 +1,30 @@
+.animation_div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  z-index: 1000;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(0); /* Commence à 100% à gauche de l'écran */
+  }
+  100% {
+    transform: translateX(-100%); /* Se termine à la position originale (0) */
+  }
+}
+
+
+.hadouken_gif_div {
+  animation: slideInFromRight 0.2s ease;
+  width: 100%;
+  height: 100%;
+}
+
+.gif_hadouken {
+  width: 100%;
+  height: 100%;
+}
