@@ -1,0 +1,38 @@
+.snowflakes {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  animation: snowfall 20s linear infinite;
+}
+
+@keyframes snowfall {
+  from {
+    transform: translateY(-20vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+.snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0.7;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100vh);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
