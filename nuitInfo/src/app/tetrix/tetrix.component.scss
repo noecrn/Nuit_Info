@@ -65,3 +65,27 @@ button {
     background-color: #2980b9;
   }
 }
+#tetris-container {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-gap: 1px;
+  background-color: #ddd;
+  border: 1px solid #333;
+}
+#tetris-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 53vh;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.gifTetris {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+  max-height: 100%;
+}
